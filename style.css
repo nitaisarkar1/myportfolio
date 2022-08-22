@@ -1,0 +1,387 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* carousel-area Start--------- */
+.carousel img {
+  width: 100%;
+  height: 500px;
+}
+.carousel-caption h4 {
+  color: rgb(228, 242, 38);
+}
+
+/* carousel-area End--------- */
+
+
+
+/* main-area Start========= */
+#gradient {
+  width: 100%;
+  /* height: 100vh; */
+  padding: 100px 50px 50px;
+  overflow: hidden;
+  background: radial-gradient(circle, #5c0067 0%, #00d4ff 100%);
+}
+
+.heading-area h1 {
+  color: #fff;
+  margin-bottom: 80px;
+}
+.heading-area span {
+  border: 2px solid rgb(217, 231, 30);
+  border-radius: 5px;
+  padding: 10px;
+  display: inline-block;
+}
+.text-area {
+  text-align: center;
+}
+.text-area h1 {
+  color: rgb(28, 182, 17);
+  font-size: 50px;
+  margin-bottom: 13px;
+}
+.text-area h5 {
+  color: rgb(219, 207, 25);
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+.text-area h2 {
+  color: #fff;
+  font-size: 42px;
+  font-weight: bold;
+  margin-bottom: 14px;
+}
+.text-area h4 {
+  color: rgb(210, 232, 41);
+  margin-bottom: 18px;
+}
+.text-area p {
+  color: rgba(231, 47, 59, 0.971);
+  margin-bottom: 24px;
+}
+
+.image-area img {
+  border: 0px solid #fff;
+  border-radius: 100px;
+  margin: 70px 0 0 110px;
+}
+
+
+/* main-area End========= */
+
+/* about-me-area start========= */
+.aboutme-area {
+  background: linear-gradient(white,rgb(13, 207, 214));
+  overflow: hidden;
+  padding: 50px 70px 100px 70px;
+}
+.aboutme-area .about-image-area img {
+  border: 3px solid #d1e755;
+  margin-bottom: 38px;
+  border-radius: 50px;
+}
+
+.aboutme-area .about-text-area p {
+  color: rgb(105, 42, 240);
+  text-align: center;
+  font-size: 18px;
+  line-height: 30px;
+}
+
+
+.aboutme-area .a-heading h2 {
+  color: rgb(48, 11, 198);
+  font-size: 45px;
+
+}
+.a-heading::after {
+  content: "";
+    display: block;
+   width: 240px;
+   height: 10px;
+   margin: auto;
+   margin-top: 10px;
+   background:rgb(4, 163, 166);
+   border-radius: 30px;
+   margin-bottom: 20px;
+}
+
+/* about-me-area end========= */
+
+
+/* services-area start========= */
+.s-heading h2 {
+  color: rgb(228, 12, 91);
+  font-size: 50px;
+}
+.service-area p {
+  color: rgb(20, 21, 23);
+  margin-bottom: 30px;
+
+}
+.s-heading::after {
+  content: "";
+    display: block;
+   width: 300px;
+   height: 10px;
+   margin: auto;
+   margin-top: 10px;
+   background:rgb(4, 163, 166);
+   border-radius: 30px;
+   margin-bottom: 20px;
+}
+
+.service-area .html-area {
+  background-color: #fdfbfc;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 0 5px 2px #4a2a85;
+  transition: all 0.5s;
+}
+.service-area .html-area img {
+	width: 180px;
+	height: 190px;
+	
+}
+.service-area .html-area h4 {
+  text-align: center;
+  font-size: 32px;
+} 
+
+.service-area .html-area p {
+  text-align: center;
+  color: rgb(13, 158, 201);
+}
+.service-area .html-area:hover {
+  transform: scale(1.05);
+}
+
+
+.service-area .css-area {
+  background-color: #fdfbfc;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 0 5px 2px #4a2a85;
+  transition: all 0.5s;
+}
+.service-area .css-area img {
+	width: 180px;
+	height: 190px;
+	
+}
+.service-area .css-area h4 {
+  text-align: center;
+  font-size: 32px;
+} 
+
+.service-area .css-area p {
+  text-align: center;
+  color: rgb(13, 158, 201);
+}
+.service-area .css-area:hover {
+  transform: scale(1.05);
+}
+
+
+.service-area .js-area {
+  background-color: #fdfbfc;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 0 5px 2px #4a2a85;
+  transition: all 0.5s;
+}
+.service-area .js-area img {
+	width: 180px;
+	height: 190px;
+	
+}
+.service-area .js-area h4 {
+  text-align: center;
+  font-size: 32px;
+} 
+
+.service-area .js-area p {
+  text-align: center;
+  color: rgb(13, 158, 201);
+}
+.service-area .js-area:hover {
+  transform: scale(1.05);
+}
+
+
+.service-area .bs-area {
+  background-color: #fdfbfc;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 0 5px 2px #4a2a85;
+  transition: all 0.5s;
+}
+.service-area .bs-area img {
+	width: 180px;
+	height: 190px;
+	
+}
+.service-area .bs-area h4 {
+  text-align: center;
+  font-size: 32px;
+} 
+
+.service-area .bs-area p {
+  text-align: center;
+  color: rgb(13, 158, 201);
+}
+.service-area .bs-area:hover {
+  transform: scale(1.05);
+}
+
+.service-area .jq-area {
+  background-color: #fdfbfc;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 0 5px 2px #4a2a85;
+  transition: all 0.5s;
+}
+.service-area .jq-area img {
+	width: 180px;
+	height: 190px;
+	
+}
+.service-area .jq-area h4 {
+  text-align: center;
+  font-size: 32px;
+} 
+
+.service-area .jq-area p {
+  text-align: center;
+  color: rgb(13, 158, 201);
+}
+.service-area .jq-area:hover {
+  transform: scale(1.05);
+}
+/* services-area end========= */
+
+/* contact-area start========= */
+
+.contact-area .c-heading h2 {
+  color: rgb(0, 200, 255);
+  font-size: 50px;
+}
+
+.contact-area .c-heading::after {
+  content: "";
+    display: block;
+   width: 300px;
+   height: 10px;
+   margin: auto;
+   margin-top: 10px;
+   background:rgb(227, 242, 20);
+   border-radius: 30px;
+   margin-bottom: 30px;
+}
+
+
+.contact-area .contact {
+  background-color: #ffeef1;
+  overflow: hidden;
+  padding: 60px 40px;
+  transition: all 0.5s;
+  box-shadow: 0 0 5px 2px #4a2a85;
+
+}
+.contact-area .contact:hover {
+  transform: scale(1.05);
+}
+
+.contact-area h2 {
+  color: rgb(0, 255, 242);
+  margin-bottom: 20px;
+  font-size: 30px;
+}
+.contact .address p {
+  color: rgb(0, 255, 242);
+  font-size: 20px;
+  margin-top: 25px;
+  margin-bottom: 0;
+}
+
+.contact .address h5 {
+  color: red;
+  margin-bottom: 30px;
+}
+
+
+.contact .phone p {
+  color: rgb(0, 255, 242);
+  font-size: 20px;
+  margin-top: 15px;
+  margin-bottom: 0;
+}
+
+.contact .phone h5 {
+  color: red;
+  margin-bottom: 30px;
+}
+
+.contact .email p {
+  color: rgb(0, 255, 242);
+  font-size: 20px;
+  margin-top: 15px;
+  margin-bottom: 0;
+}
+
+.contact .email h5 {
+  color: red;
+  margin-bottom: 30px;
+}
+/* contact-area end========= */
+
+
+
+/* footer-area start========= */
+.footer-area {
+  background-color: #273443;
+  overflow: hidden;
+  padding: 50px 0;
+}
+.footer-area h2 {
+  color: #fff;
+  margin-bottom: 30px;
+}
+.footer-area .my-icons ul {
+    padding: 0;
+    list-style-type: none;
+    margin: 20px 0 0;
+    text-align: center;
+
+}
+.footer-area .my-icons li {
+    display: inline-block;
+    margin: 0 10px;
+} 
+.footer-area .my-icons a {
+    width: 50px;
+    height: 50px;
+    background-color: rgb(115, 111, 111);
+    display: block;
+    padding-top: 10px;
+    color: #fff;
+    transition: 0.5s;
+    border-radius: 50px;
+}
+.footer-area .my-icons a:hover {
+    background-color: rgb(68, 197, 201);
+}
+
+.footer-two {
+  background-color: #1c1e21;
+  overflow: hidden;
+  padding: 15px 0;
+}
+.footer-two .text p {
+  color: #fff;
+}
+/* footer-area end========= */

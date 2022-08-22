@@ -1,0 +1,329 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="shortcut icon" href="code-icon-png-5.png" type="image/x-icon">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+  <title>Portfolio Website</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <!-- header area navbar--------- -->
+  <header class="main-menu">
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+      <div class="container-fluid">
+        <a href="#" class="navbar-brand"><img src="favicon.png" alt="icon" width="40px" heihgt="40px">My
+          Portfolio</a>
+        <button type="button" class="navbar-toggler" data-bs-target="#main_menu" data-bs-toggle="collapse">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div id="main_menu" class="collapse navbar-collapse">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="#about_me">About Me</a></li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" area-expand="false" role="button"
+                href="#Service_my">Service</a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#my_html">html</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="#my_css">css</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="#my_js">javascript</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="#my_jq">jQurey</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="#my_bs">bootstrap</a></li>
+              </ul>
+            </li>
+            <li class="nav-item"><a class="nav-link" href="#my_contact">Contact</a></li>
+          </ul>
+        </div>
+        <!-- <form action="#" class="d-flex">
+          <input type="search" name="mysearch" id="mysearch" placeholder="Search" class="form-control me-2">
+          <button type="button" class="btn btn-primary">Search</button>
+        </form> -->
+
+      </div>
+    </nav>
+  </header>
+  <br><br>
+
+
+
+  <!-- main-area1--------------->
+  <div id="slider" class="carousel slide" data-bs-ride="carousel" data-bs-touch="true">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img class="d-block w-100" src="two.webp" alt="work">
+        <div class="carousel-caption">
+          <h4>At Beginner Stage</h4>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="first.jpg" alt="work">
+        <div class="carousel-caption">
+          <h4>Home Working Setup</h4>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="third.jpg" alt="work">
+        <div class="carousel-caption">
+          <h4>Team Work By All Friends</h4>
+        </div>
+      </div>
+    </div>
+    <button type="button" class="carousel-control-prev" data-bs-target="#slider" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </button>
+    <button type="button" class="carousel-control-next" data-bs-target="#slider" data-bs-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </button>
+    <div class="carousel-indicators">
+      <button type="button" class="active" data-bs-target="#slider" data-bs-slide-to="0"></button>
+      <button type="button" data-bs-target="#slider" data-bs-slide-to="1"></button>
+      <button type="button" data-bs-target="#slider" data-bs-slide-to="2"></button>
+    </div>
+  </div>
+
+
+  <!-- main-area========= -->
+  <div id="gradient" class="container-fluid">
+    <div class="row">
+      <div class="col-md-12 text-center">
+        <div class="heading-area">
+          <h1>
+            <span>N</span>
+            <span>I</span>
+            <span>T</span>
+            <span>A</span>
+            <span>I</span>
+          </h1>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="text-area">
+          <H1>Hello,</H1>
+          <h5>My Name is---</h5>
+          <h2>NITAI SARKAR</h2>
+          <h4>I am a Front End Web Developer.</h4>
+          <p>This is my official protfolio Website. Welcome to my Portfolio...</p>
+          <button type="button" class="btn btn-outline-dark text-white btn-lg mt-3">Download CV</button>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="image-area">
+          <img class="mx-auto d-block" src="nitai-2.png" alt="profile">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- About me area-------- -->
+  <div class="container-fluid aboutme-area">
+    <div class="row">
+      <div class="col-md-12 mb-5 text-center">
+        <div class="a-heading">
+          <h2 id="about_me">About Me</h2>
+        </div>
+      </div>
+    </div>
+    <div class="row mt-5">
+      <div class="col-md-6">
+        <div class="about-image-area">
+          <img class="mx-auto d-block" src="nitai-about-me.png" alt="nitai">
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="about-text-area">
+          <p>My name is Nitai Sarkar. I'm 19 years old. I'm form Bangladesh and I'm a Front End Web Developer. I'm
+            skilled in
+            html, css, bootstrap, jQurey and learning javascript. I will recently design some web site. I have created
+            one
+            porfolio web site and fully responsive in small screen mobile, tab and laptop. I will make some web site
+            releted
+            small project. As well as psd to html. I am 10 hour active in my work.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- services-area------------- -->
+
+  <div class="container service-area">
+    <div class="row">
+      <div class="col-md-12 mt-5 text-center">
+        <div class="s-heading">
+          <h2 id="Service_my">My Services</h2>
+        </div>
+        <p>I'm a Front End Web Developer. My skills are html5, css3, bootstrap, jQuery and learning javascript.</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-4 mb-5">
+        <div class="html-area">
+          <img class="rounded mx-auto d-block" src="html.png" alt="html">
+          <h4 id="my_html">HTML5</h4>
+          <p>Hyper text markup language (Html). This is use to build a web site markup. I am skilled in html.</p>
+        </div>
+      </div>
+      <div class="col-md-4 mb-5">
+        <div class="css-area">
+          <img class="rounded mx-auto d-block" src="css.png" alt="css">
+            <h4 id="my_css">CSS3</h4>
+            <p>Cascading style sheeds (Css).This is use to color interactive a html web site. I am skilled in css.</p>
+        </div>
+      </div>
+      <div class="col-md-4 mb-5">
+        <div class="js-area">
+          <img class="rounded mx-auto d-block" src="js-logo.png" alt="js">
+          <h4 id="my_js">JAVASCRIPT</h4>
+          <p>JavaScript is a programing language. This is use for front end and back end development.</p>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-4 mb-5">
+        <div class="bs-area">
+          <img class="rounded mx-auto d-block" src="bootstrap.png" alt="bootstrap">
+          <h4 id="my_bs">BOOTSTRAP5</h4>
+          <p>Bootstrap is the most popular CSS Framework for developing responsive and mobile-first websites. Bootstrap 5 is the newest version of Bootstrap</p>
+        </div>
+      </div>
+      <div class="col-md-4 mb-5">
+        <div class="jq-area">
+          <img class="rounded mx-auto d-block" src="jquery.png" alt="jquery">
+          <h4 id="my_jq">JQUERY</h4>
+          <p>jQuery is a JavaScript library designed to simplify HTML DOM tree traversal and manipulation, as well as event handling,
+          CSS animation, and Ajax.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- pagination menu----- -->
+  <div class="menu my-4">
+    <ul class="pagination justify-content-center">
+      <li class="page-item"><a class="page-link bg-success text-white" href="#">prev</a></li>
+      <li class="page-item"><a class="page-link" href="#">1</a></li>
+      <li class="page-item"><a class="page-link" href="#">2</a></li>
+      <li class="page-item"><a class="page-link" href="#">3</a></li>
+      <li class="page-item"><a class="page-link bg-success text-white" href="#">next</a></li>
+    </ul>
+  </div>
+
+<!-- contact-area------------- -->
+  <div class="contact-area">
+    <div class="container mb-5">
+      <div class="row">
+        <div class="col-md-12 text-center">
+          <div class="c-heading">
+            <h2 id="my_contact">Contact Me</h2>
+          </div>
+        </div>
+      </div>
+
+      <div class="contact">
+        <div class="row">
+          <div class="col-md-6 text-center">
+            <div class="address">
+              <p><i class="bi bi-geo-alt"></i>Address:</p>
+              <h5>Rajshahi,Bangladesh</h5>
+            </div>
+            <div class="phone">
+              <p><i class="bi bi-phone"></i>Phone:</p>
+              <h5>01791243653</h5>
+            </div>
+            <div class="email">
+              <p><i class="bi bi-envelope-open"></i>Email:</p>
+              <h5>sarkarnitai609@gmail.com</h5>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <h2>Send Message</h2>
+            <div class="s-message d-flex">
+              <form action="#">
+                <input type="text" name="fullname" id="fullname" placeholder="Full name" class="form-control">
+                <input type="email" name="email-or-phone" id="email-or-phone" placeholder="Email" class="form-control mt-3" required>
+                <textarea name="mytext" id="mytext" cols="30" rows="10" placeholder="Type Message..." class="form-control mt-3"></textarea>
+                <button type="button" class="btn btn-primary mt-3">Send</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- footer-area------------- -->
+  <div class="container-fluied footer-area">
+    <div class="row">
+      <div class="col-md-12">
+        <h2 class="text-center">FIND ME</h2>
+        <div class="my-icons">
+          <ul>
+            <li><a href="https://www.facebook.com/sreenitai.nitai"><i class="bi bi-facebook"></i></a></li>
+            <li><a href="https://l.facebook.com/l.php?u=https%3A%2F%2Fwa.link%2F5ch4dr%3Ffbclid%3DIwAR3QCFYhrP5TrWfbr0aEG2-t_b1M9MJk8eH5rdgsVRb5ottvYnV1BTVdaNA&h=AT0-hCUfJ1TgbD_TL9KDl_GUPW1l2IjyAY-xBnC02BnG6p1AxPq0-WfQ2xUM2sjR-law-AhK55kn_LGc7Qt4dawF33DsbNvYO7MBzHSEVgSRnbMLk7ylTQJvFQbd6G0GZHGmKA"><i class="bi bi-whatsapp"></i></a></li>
+            <li><a href="https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.instagram.com%2Fnitaisarkar55%3Ffbclid%3DIwAR10vGYqBW0LUYXkN_YPu9pjk_1Qy3NS5l4BdnokCuZFaEfyu9jFg3c3moA&h=AT0TqXqnTOblHAI-8JoqaxIyhrlGAdLekW223zV48jNmM8WwSoi08n4TiO0UH-TDHttmTddYxivW00zw4v8efE-eYvJubSx5L4-r04PzEsx0rZqKh1sJm0AmcWnIt2p1D5Jjbg"><i class="bi bi-instagram"></i></a></li>
+            <li><a href="#"><i class="bi bi-youtube"></i></a></li>
+            <li><a href="#"><i class="bi bi-twitter"></i></a></li>
+            <!-- <li><a href="#"><i class="bi bi-telegram"></i></a></li>
+            <li><a href="#"><i class="bi bi-linkedin"></i></a></li> -->
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container-fluied footer-two">
+    <div class="row">
+      <div class="col-md-12">
+          <div class="text">
+            <p class="text-center">Copyright 2022 © -Professional Portfolio </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <!-- Optional JavaScript; choose one of the two! -->
+
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+
+  <!-- Option 2: Separate Popper and Bootstrap JS -->
+  <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+</body>
+
+</html>
